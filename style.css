@@ -516,7 +516,7 @@ section {
 }
 
 .project-img-placeholder {
-    height: 220px;
+    height: 160px;
     background: rgba(166, 124, 82, 0.02);
     display: flex;
     justify-content: center;
