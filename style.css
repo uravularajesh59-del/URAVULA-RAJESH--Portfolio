@@ -304,13 +304,13 @@ body {
 
 /* Sections Common */
 section {
-    padding: 120px 10%;
+    padding: 60px 10%;
 }
 
 .section-title {
     text-align: center;
-    font-size: 3rem;
-    margin: 0 auto 70px;
+    font-size: 2.5rem;
+    margin: 0 auto 40px;
     position: relative;
     display: table;
 }
@@ -516,12 +516,24 @@ section {
 }
 
 .project-img-placeholder {
-    height: 200px;
+    height: 220px;
     background: rgba(166, 124, 82, 0.02);
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgba(166, 124, 82, 0.1);
+    overflow: hidden;
+}
+
+.project-img-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.project-card:hover .project-img-placeholder img {
+    transform: scale(1.1);
 }
 
 .project-img-placeholder i {
