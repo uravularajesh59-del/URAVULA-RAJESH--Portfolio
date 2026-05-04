@@ -374,6 +374,10 @@ section {
     display: inline-block;
 }
 
+.cv-btn {
+    margin-top: 80px;
+}
+
 /* Credentials Section */
 .credentials-container {
     display: grid;
@@ -797,10 +801,17 @@ section {
         align-items: flex-start;
         gap: 5px;
         padding: 15px 10px;
+        word-break: break-word;
     }
 
     .personal-info li strong {
         width: auto;
+    }
+
+    .cv-btn {
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
     }
 
     .credentials-container,
