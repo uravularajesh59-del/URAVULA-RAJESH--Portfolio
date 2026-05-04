@@ -7,6 +7,11 @@ Welcome to my professional portfolio! This repository contains the source code f
 You can view the live portfolio at the following link:
 **[https://uravularajesh59-del.github.io/URAVULA-RAJESH--Portfolio/](https://uravularajesh59-del.github.io/URAVULA-RAJESH--Portfolio/)**
 
+## 🌟 Featured Project: BhoomiAI
+BhoomiAI is a premium digital farming assistant designed for the farmers of Andhra Pradesh. It features real-time mandi prices, AI-driven crop advice, and a crop health scanner.
+- **Run Locally**: `http://localhost:8000/`
+- **Source**: [GitHub Repository](https://github.com/uravularajesh59-del/BhoomiAi-raithu-mithraa)
+
 ## 🛠️ Built With
 
 - **HTML5** - Structure and layout

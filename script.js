@@ -155,3 +155,19 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+// Project Card Interactivity
+document.querySelectorAll('.project-card').forEach(card => {
+    const link = card.querySelector('.project-link');
+    if (link) {
+        card.style.cursor = 'pointer';
+        card.setAttribute('title', 'Click to view ' + card.querySelector('h3').textContent);
+
+        card.addEventListener('click', (e) => {
+            // Check if the click wasn't on the already clickable 'View Live' button
+            if (!e.target.closest('.project-link')) {
+                window.open(link.href, '_blank');
+            }
+        });
+    }
+});
