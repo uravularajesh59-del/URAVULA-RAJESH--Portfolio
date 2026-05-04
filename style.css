@@ -799,19 +799,28 @@ section {
     .personal-info li {
         flex-direction: column;
         align-items: flex-start;
-        gap: 5px;
-        padding: 15px 10px;
+        gap: 2px;
+        padding: 12px 0;
         word-break: break-word;
     }
 
     .personal-info li strong {
         width: auto;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        opacity: 0.9;
+    }
+
+    .personal-info li:last-child {
+        border-bottom: none;
     }
 
     .cv-btn {
-        margin-top: 30px;
+        margin-top: 25px;
         width: 100%;
         text-align: center;
+        padding: 15px;
     }
 
     .credentials-container,
